@@ -49,3 +49,17 @@
     transform: scale(1.05);
     filter: brightness(1.1);
 }
+
+@media screen and (max-width: 500px) {
+
+    .card {
+        font-size: 1rem;
+        padding: 3.9em;
+        max-width: 380px;
+    }
+
+    .app__title {
+        top: 8em;
+        font-size: 1.5rem;
+    }
+}
